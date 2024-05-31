@@ -6,6 +6,10 @@ import store from "./store/store";
 import router from "./router";
 // prime vue
 import PrimeVue from "primevue/config";
+
+//in main.js
+import "primevue/resources/themes/aura-light-green/theme.css";
+
 import InputText from "primevue/inputtext";
 import Button from "primevue/button";
 

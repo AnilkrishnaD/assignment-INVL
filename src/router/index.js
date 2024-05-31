@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL), // Fallback to '/' if window.location.origin is not available
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 

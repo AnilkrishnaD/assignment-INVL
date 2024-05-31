@@ -3,12 +3,19 @@
     type="text"
     v-model="query"
     @input="emitSearch"
-    placeholder="Search..."
+    placeholder="Search by name or email"
   />
 </template>
 
 <script setup>
-import { defineExpose, defineProps, defineEmits, ref, computed } from "vue";
+import {
+  defineExpose,
+  defineProps,
+  defineEmits,
+  ref,
+  computed,
+  provide,
+} from "vue";
 
 const query = ref("");
 const emit = defineEmits(["search"]);
