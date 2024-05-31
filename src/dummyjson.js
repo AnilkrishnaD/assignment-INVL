@@ -19,6 +19,26 @@ export const formConfig = {
       },
     },
     {
+      token: "Is person minor",
+      type: "checkbox",
+      props: {
+        title: "Is the current person minor",
+        required: true,
+        placeholder: "john@example.com",
+        default: false,
+      },
+    },
+    {
+      token: "PERSON_DOB",
+      type: "date",
+      props: {
+        title: "Enter your DOB",
+        required: true,
+        placeholder: "01/01/1998",
+        // default: false,
+      },
+    },
+    {
       token: "Mobile",
       type: "number",
       props: {
